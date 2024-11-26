@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   background-image: url('https://static.vecteezy.com/system/resources/previews/018/944/205/non_2x/black-and-gold-background-vector.jpg');
+    color: white; 
+}
+
+
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px; 
+    background: linear-gradient(to bottom, #333333, #1c1c1c); 
+    border: 2px solid #ffc107; 
+    border-radius: 15px; /* Bordes más redondeados */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+
+form h1 {
+    text-align: center;
+    color: goldenrod; 
+    font-size: 26px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+form div {
+    margin-bottom: 20px; 
+}
+
+
+form label {
+    display: block;
+    margin-bottom: 8px; 
+    font-weight: bold;
+    color:white;
+    font-size: 14px;
+}
+
+
+form input, 
+form select {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #666666; 
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #262626; 
+    color:white; 
+}
+
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: goldenrod; 
+    border: none;
+    color: #333333; 
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background-color: gold; 
+    transform: scale(1.05); 
+}
+
+
+form input:focus, 
+form select:focus {
+    border-color: gold;
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 193, 7, 0.8);
+}
+
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+    z-index: -1;
+}
+
+
+#continuar {
+    margin-top: 10px; 
+}

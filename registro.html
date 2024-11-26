@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/10677/10677650.png">
+    <link rel="stylesheet" href="./css/estilosRegistro.css">
+</head>
+<body>
+    
+    
+
+    <form id="formulario">
+        <h1>Registro</h1>
+        
+        <div>
+            <label for="nombreusuario">Nombre de usuario:</label>
+            <input type="text" id="nombreusuario" name="nombreusuario" required>
+        </div>
+       
+        <div>
+            <label for="clave">Contraseña:</label>
+            <input type="password" id="clave" name="clave" required>
+        </div>
+        
+        <div>
+            <label for="confirmarclave">Confirmar contraseña:</label>
+            <input type="password" id="confirmarclave" name="confirmarclave" required>
+        </div>
+        
+        <div>
+            <label for="fechaNacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+        </div>
+        
+        <div>
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo" required>
+                <option value="">Selecciona una opción</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Otro">Otro</option>
+            </select>
+        </div>
+       
+        <div>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" min="1" required>
+        </div>
+        
+        <button type="submit">Registrarse</button>
+        
+        <button type="button" id="continuar">Continuar</button>
+    </form>
+
+
+
+<script src="./js/scriptRegistro.js"></script>
+
+
+
+
+</body>
+</html>

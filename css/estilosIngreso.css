@@ -1,0 +1,77 @@
+body#ingreso {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/018/944/205/non_2x/black-and-gold-background-vector.jpg');
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#formulario {
+    background: #2c2c2c;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    border: solid 2px gold;
+}
+
+#formulario h1 {
+    text-align: center;
+    color: gold;
+    margin-bottom: 20px;
+}
+
+#formulario div {
+    margin-bottom: 15px;
+}
+
+#formulario label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#formulario input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #404040;
+    color: #f5f5f5;
+    outline: none;
+}
+
+#formulario input:focus {
+    border-color: gold; 
+    box-shadow: 0 0 5px gold;
+}
+
+#formulario button {
+    width: 100%;
+    padding: 10px;
+    background-color: gold; 
+    color: #1a1a1a;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 16px;
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+}
+
+#formulario button:hover {
+    background-color: gold; 
+    transform: scale(1.05); 
+}
+
+#formulario button:active {
+    background-color: goldenrod; 
+    transform: scale(1); 
+}
